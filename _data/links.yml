@@ -1,91 +1,91 @@
-- name: 码志
-  url: http://mazhuang.org
+- name: 坚果云
+  url: https://www.jianguoyun.com
   src: life
 
-- name: Connie 酱
-  url: https://connie99.github.io
+- name: 金山文档
+  url: https://www.kdocs.cn
   src: life
 
-- name: 只宁静不致远
-  url: http://zxning.github.io
+- name: 阿里图标库
+  url: https://www.iconfont.cn
   src: life
 
-- name: Blog Something
-  url: http://chenxiaoyoyo.github.io
+- name: 千图网
+  url: https://www.58pic.com
   src: life
 
-- name: 日新亭
-  url: http://www.fengerzh.com/
+- name: GitHub
+  url: https://github.com
   src: life
 
-- name: wanandroid
-  url: http://www.wanandroid.com/
+- name: CloudFlare
+  url: https://dash.cloudflare.com
   src: life
 
-- name: ZZY补完计划
-  url: https://zzycreate.github.io/
+- name: Greasy Fork
+  url: https://greasyfork.org/zh-CN
   src: life
 
-- name: 村农
-  url: http://www.why-dong.com/
+- name: 谷歌插件
+  url: https://www.crxsoso.com
   src: life
 
-- name: 求生之路
-  url: http://blog.xiaolaoni.xin/
+- name: 423Down
+  url: http://www.423down.com
   src: life
 
-- name: 董小姐的草原
-  url: https://candy961.github.io/
+- name: 克隆窝
+  url: https://www.uy5.net
   src: life
 
-- name: 王玉超
-  url: https://yuchao.wang/
+- name: 分享迷
+  url: https://www.fenxm.com
+  src: life
+
+- name: 吾爱破解
+  url: https://www.52pojie.cn
+  src: life
+
+- name: 卡饭论坛
+  url: https://bbs.kafan.cn/
+  src: life
+
+- name: 远景论坛
+  url: https://bbs.pcbeta.com/
+  src: life
+
+- name: 新媒体工具集
+  url: https://xmt.gotab.link/
   src: www
 
-- name: 水寒的博客
-  url: https://dp2px.com
+- name: 在线工具箱
+  url: https://tool.lu/
   src: www
 
-- name: 孙不服的博客
-  url: https://sunbufu.github.io/
+- name: 火山写作
+  url: https://www.writingo.net
   src: www
 
-- name: HwiLu's 博客
-  url: https://hwilu.github.io/
+- name: Kimi AI
+  url: https://kimi.moonshot.cn/
   src: www
 
-- name: 有次博客
-  url: http://you.ci/
+- name: 智谱清言
+  url: https://chatglm.cn/
   src: www
 
-- name: 呓城之城
-  url: http://yicheng.zdyrs.com/
+- name: 讯飞星火
+  url: https://xinghuo.xfyun.cn/desk
   src: www
 
-- name: 秦大圣的博客
-  url: https://qinjisheng.top/
+- name: 马克配音
+  url: https://ttsmaker.cn/
   src: www
 
-- name: 极客玩家大白
-  url: https://geekplayers.com/
+- name: AI 工具集
+  url: https://ai-bot.cn/
   src: www
 
-- name: 见字如面
-  url: https://hiwannz.com
-  src: www
-
-- name: 梦境迷离
-  url: https://dreamylost.cn
-  src: www
-
-- name: river's blog
-  url: https://www.river106.cn
-  src: www
-
-- name: lanruixiang
-  url: https://lanruixiang.github.io/
-  src: www
-
-- name: lch2010
-  url: https://lch2010.github.io/
+- name: AI 旋风
+  url: https://www.aixuanfeng.com/
   src: www
