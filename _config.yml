@@ -2,33 +2,33 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: 
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 青云志
+subtitle: "网络技术爱好者"
+description: "网络技术爱好者"
+keywords: 网络,搜集,分享,随笔,感悟,工作,
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2024
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: yutian81/yutian81.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
-        enabled: false
+        enabled: true
 # 可选组件配置
 components:
     # 分享
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
-        enabled: false
-        hide-platforms: qq,facebook
+        enabled: true
+        hide-platforms: qzone,linkedin,facebook,twitter
     # 不蒜子访问统计
     busuanzi:
-        enabled: false
-        start_date: 2020-05-03
+        enabled: true
+        start_date: 2024-05-05
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -39,8 +39,8 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
+        enabled: false
+        image_alt: 青云志
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -49,7 +49,7 @@ components:
         enabled: false
 # 压缩页面内容
 compress_html:
-  clippings: all
+  clippings: 全部
   comments: ["<!--", "-->"]
 # 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
 highlight_theme: github
@@ -57,12 +57,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: 青云志
 organization: 
 organization_url: 
-github_username: mzlogin
+github_username: yutian81
 location: Wuhan, China
-email: chumpma@gmail.com
+email: yutian88881@hotmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -82,22 +82,22 @@ navs:
     mobile-hidden: true
 
   -
-    href: /open-source/
-    label: 开源
-    mobile-hidden: true
+    # href: /open-source/
+    # label: 开源
+    # mobile-hidden: true
 
   -
-    href: /fragments/
-    label: 片段
+    # href: /fragments/
+    # label: 片段
 
   -
-    href: /wiki/
-    label: 维基
+    # href: /wiki/
+    # label: 维基
 
   -
     href: /links/
     label: 链接
-    mobile-hidden: true
+    mobile-hidden: false
 
   -
     href: /about/
@@ -141,12 +141,12 @@ collections:
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
-comments_provider: giscus
+comments_provider: disqus
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
 disqus:
-    username: 
+    username: yu-tian-kuang-ben-yutians-blog
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: mzlogin
@@ -180,19 +180,19 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: true
     # 最多显示多少条搜索结果
-    limit: 10
+    limit: 20
 
 # ---------------- #
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: # G-20FLEG5Q2W
+    analytics_id: G-RHJGBYTDHR # G-20FLEG5Q2W
     adsense:
-        enabled: false
-        footer: false
-        sidebar: false
+        enabled: true
+        footer: true
+        sidebar: true
         sidebar-detail: false
         content_header: false
         content_footer: false
