@@ -146,7 +146,7 @@ comments_provider: disqus
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
 disqus:
-    username: yu-tian-kuang-ben-yutians-blog
+    username: yutian81
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: mzlogin
