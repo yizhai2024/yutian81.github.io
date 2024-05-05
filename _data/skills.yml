@@ -1,19 +1,22 @@
-- name: Software Engineer Keywords
+- name: 技术分享
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - 静态网站
+      - 操作系统
+      - 软件技巧
+      - 科学上网
 
-- name: Mobile Developer Keywords
+- name: 工作心得
   keywords:
-      - Android
-      - Reverse Engineering
+      - 地产操盘
+      - 营销策划
+      - 前期咨询
+      - 市场推广
+      - 案例复盘
 
-- name: Windows Developer Keywords
+- name: 生活感悟
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - 随笔
+      - 看书
+      - 音乐
+      - 影视
+      - 备忘
