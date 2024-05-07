@@ -17,7 +17,7 @@ topmost: true
   
 ## 发布所需的 frontmatter 文件头  
   
-- layout: post    `如果写为 gallery ，则会在文章中展示图集`  
+- layout: post    `如果要发布图集，则写为 gallery`  
 - title: Hello 2015   `博客模板实际显示的文章名`  
 - name: 2024-05-01-title   `在 github publish 插件中设置的参数，用于改变上传到 github 中的文件名为前缀带日期的格式，必须是这样的前缀才会显示在博客网页上，否则文章不显示`  
 - categories: `[Blogging, Demo]`  
