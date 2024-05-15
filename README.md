@@ -1,5 +1,30 @@
-# 码志
+## 博文内如何使用链接
+### 链接 Permalink  
+如果你要创建一组文档、博文、页面或文件的链接，使用 link 标签可以正确生成指定路径的永久链接。  
+```
+{% link _collection/name-of-document.md %}
+{% link _posts/2016-07-26-name-of-post.md %}
+{% link news/index.html %}
+{% link /assets/files/doc.pdf %}
+```
+还可以使用这个标签在MarkDown文件中创建一个链接：  
+```
+[Link to a document]({% link _collection/name-of-document.md %})
+[Link to a post]({% link _posts/2016-07-26-name-of-post.md %})
+[Link to a page]({% link news/index.html %})
+[Link to a file]({% link /assets/files/doc.pdf %})
+```
 
+### 博文链接（Post URL）Permalink
+如果你想使用你某篇文章的链接，标签 post_url 可以满足你的需求。  
+`{% post_url 2010-07-21-name-of-post %}`  
+如果你使用了子文件夹来组织你的博文，你需要在路径中加入子文件夹：  
+`{% post_url /subdir/2010-07-21-name-of-post %}`  
+当使用post_url标签时，不需要写文件后缀名。  
+还可以用 Markdown 这样为你的文章生成超链接：  
+`[Name of Link]({% post_url 2010-07-21-name-of-post %})`  
+
+## 码志  
 我的个人博客：<https://mazhuang.org>，欢迎 Star 和 Fork。
 
 ## 概览
