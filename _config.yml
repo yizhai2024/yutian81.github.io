@@ -188,6 +188,7 @@ giscus:
     repo-id: R_kgDOL3SyXQ
     category: Announcements
     category-id: DIC_kwDOL3SyXc4ChYvM
+    mapping: pathname
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
